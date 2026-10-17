@@ -1,6 +1,7 @@
 [build-system]
 requires = [
-    "setuptools>=62.3.0,<75.9",
+    # PyTorch 2.14 requires setuptools>=77.0.3.
+    "setuptools>=77.0.3",
     "torch>=2.3.1",
     ]
 build-backend = "setuptools.build_meta"
